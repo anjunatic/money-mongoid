@@ -2,11 +2,11 @@ source :rubygems
 
 gem 'money'
 
-gem 'mongoid',  "~> 3.0.0.rc"
-gem 'moped'
+#gem 'mongoid',  "~> 3.0.0.rc"
+#gem 'moped'
 
-# gem 'mongoid',       "~> 2.4"
-# gem 'bson'
+gem 'mongoid',       "~> 2.4"
+gem 'bson'
 
 group :development do
   gem "rspec",    "~> 2.10"
